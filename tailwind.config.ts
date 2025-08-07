@@ -18,6 +18,18 @@ export default {
 			}
 		},
 		extend: {
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-card': 'var(--gradient-card)'
+			},
+			boxShadow: {
+				'elegant': 'var(--shadow-elegant)',
+				'hover': 'var(--shadow-hover)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)'
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
