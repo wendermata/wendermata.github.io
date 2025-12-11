@@ -43,7 +43,7 @@ const Navigation = () => {
             onClick={() => scrollToSection('hero')}
           >
             <span className={isScrolled ? 'text-foreground' : 'text-white'}>
-              Portfolio
+              Wender Mata
             </span>
           </div>
 

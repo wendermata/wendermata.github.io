@@ -6,19 +6,19 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
-      value: "contact@yourdomain.com",
-      link: "mailto:contact@yourdomain.com"
+      value: "wender.mata@live.com",
+      link: "mailto:wender.mata@live.com"
     },
     {
       icon: <Phone className="w-6 h-6" />,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
+      value: "+55 (11) 99199-4171",
+      link: "tel:+5511991994171"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       label: "Location",
-      value: "San Francisco, CA - USA",
+      value: "São Paulo, SP - Brazil",
       link: null
     }
   ];
@@ -27,22 +27,22 @@ const Contact = () => {
     {
       icon: <Github className="w-6 h-6" />,
       label: "GitHub",
-      value: "@yourusername",
-      link: "https://github.com/yourusername",
+      value: "@wendermata",
+      link: "https://github.com/wendermata",
       color: "hover:text-gray-900 dark:hover:text-white"
     },
     {
       icon: <Linkedin className="w-6 h-6" />,
       label: "LinkedIn",
-      value: "/in/yourprofile",
-      link: "https://linkedin.com/in/yourprofile",
+      value: "/in/wendermata",
+      link: "https://linkedin.com/in/wendermata",
       color: "hover:text-blue-600"
     },
     {
       icon: <MessageCircle className="w-6 h-6" />,
       label: "WhatsApp",
       value: "Send message",
-      link: "https://wa.me/15551234567",
+      link: "https://wa.me/5511991994171",
       color: "hover:text-green-600"
     }
   ];

@@ -21,9 +21,9 @@ const Hero = () => {
       <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
         <div className="animate-fade-in-up">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Full Stack
+            Software Engineer
             <span className="block bg-gradient-to-r from-white to-accent bg-clip-text text-transparent">
-              Developer
+              & Developer
             </span>
           </h1>
           
@@ -52,7 +52,7 @@ const Hero = () => {
           
           <div className="flex justify-center space-x-6">
             <a 
-              href="https://github.com" 
+              href="https://github.com/wendermata" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-sm transition-all duration-300 hover:scale-110"
@@ -60,7 +60,7 @@ const Hero = () => {
               <Github className="w-6 h-6 text-white" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://linkedin.com/in/wendermata" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-sm transition-all duration-300 hover:scale-110"
@@ -68,7 +68,7 @@ const Hero = () => {
               <Linkedin className="w-6 h-6 text-white" />
             </a>
             <a 
-              href="mailto:contact@email.com"
+              href="mailto:wender.mata@live.com"
               className="p-3 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-sm transition-all duration-300 hover:scale-110"
             >
               <Mail className="w-6 h-6 text-white" />
