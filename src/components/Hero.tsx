@@ -21,14 +21,14 @@ const Hero = () => {
       <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
         <div className="animate-fade-in-up">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Desenvolvedor
+            Full Stack
             <span className="block bg-gradient-to-r from-white to-accent bg-clip-text text-transparent">
-              Full Stack
+              Developer
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-2xl mx-auto leading-relaxed">
-            Transformando ideias em soluções digitais inovadoras através de código limpo e tecnologias modernas
+            Transforming ideas into innovative digital solutions through clean code and modern technologies
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -38,7 +38,7 @@ const Hero = () => {
               className="bg-white/20 text-white border-white/30 hover:bg-white/30 backdrop-blur-sm transition-all duration-300"
               onClick={() => scrollToSection('about')}
             >
-              Conhecer minha trajetória
+              Learn about my journey
             </Button>
             <Button 
               variant="outline" 
@@ -46,7 +46,7 @@ const Hero = () => {
               className="border-white/30 text-white hover:bg-white/10 backdrop-blur-sm transition-all duration-300"
               onClick={() => scrollToSection('contact')}
             >
-              Entrar em contato
+              Get in touch
             </Button>
           </div>
           
@@ -68,7 +68,7 @@ const Hero = () => {
               <Linkedin className="w-6 h-6 text-white" />
             </a>
             <a 
-              href="mailto:contato@email.com"
+              href="mailto:contact@email.com"
               className="p-3 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-sm transition-all duration-300 hover:scale-110"
             >
               <Mail className="w-6 h-6 text-white" />

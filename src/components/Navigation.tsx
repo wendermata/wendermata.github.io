@@ -22,13 +22,13 @@ const Navigation = () => {
   };
 
   const menuItems = [
-    { label: "Início", id: "hero" },
-    { label: "Sobre", id: "about" },
-    { label: "Experiência", id: "experience" },
-    { label: "Formação", id: "education" },
-    { label: "Projetos", id: "projects" },
-    { label: "Cursos", id: "courses" },
-    { label: "Contato", id: "contact" }
+    { label: "Home", id: "hero" },
+    { label: "About", id: "about" },
+    { label: "Experience", id: "experience" },
+    { label: "Education", id: "education" },
+    { label: "Projects", id: "projects" },
+    { label: "Courses", id: "courses" },
+    { label: "Contact", id: "contact" }
   ];
 
   return (
