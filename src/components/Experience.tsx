@@ -5,27 +5,27 @@ import { Building, Calendar, MapPin } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      company: "Tech Solutions Brasil",
-      position: "Desenvolvedor Full Stack Senior",
-      period: "2022 - Presente",
-      location: "São Paulo, SP",
-      description: "Lidero o desenvolvimento de aplicações web escaláveis usando React, Node.js e AWS. Implementei arquiteturas microserviços que reduziram em 40% o tempo de resposta das APIs.",
+      company: "Tech Solutions Inc.",
+      position: "Senior Full Stack Developer",
+      period: "2022 - Present",
+      location: "San Francisco, CA",
+      description: "Leading the development of scalable web applications using React, Node.js, and AWS. Implemented microservices architectures that reduced API response time by 40%.",
       technologies: ["React", "Node.js", "TypeScript", "AWS", "PostgreSQL", "Docker"]
     },
     {
-      company: "Startup Inovadora",
-      position: "Desenvolvedor Frontend",
+      company: "Innovative Startup",
+      position: "Frontend Developer",
       period: "2020 - 2022",
       location: "Remote",
-      description: "Desenvolvi do zero uma plataforma SaaS que atende mais de 10.000 usuários. Criei componentes reutilizáveis e implementei testes automatizados.",
+      description: "Built a SaaS platform from scratch serving over 10,000 users. Created reusable components and implemented automated testing.",
       technologies: ["React", "JavaScript", "Sass", "Jest", "Cypress", "Firebase"]
     },
     {
-      company: "Agência Digital Creative",
-      position: "Desenvolvedor Web",
+      company: "Creative Digital Agency",
+      position: "Web Developer",
       period: "2019 - 2020",
-      location: "Rio de Janeiro, RJ",
-      description: "Criação de websites responsivos e otimizados para diversos clientes. Focado em performance e SEO, alcançando scores de 95+ no PageSpeed Insights.",
+      location: "New York, NY",
+      description: "Created responsive and optimized websites for various clients. Focused on performance and SEO, achieving 95+ scores on PageSpeed Insights.",
       technologies: ["HTML", "CSS", "JavaScript", "WordPress", "PHP", "MySQL"]
     }
   ];
@@ -35,11 +35,11 @@ const Experience = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Experiência Profissional
+            Professional Experience
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Uma trajetória construída com dedicação, aprendizado contínuo e projetos desafiadores 
-            que contribuíram para meu crescimento profissional.
+            A journey built with dedication, continuous learning, and challenging projects 
+            that contributed to my professional growth.
           </p>
         </div>
 

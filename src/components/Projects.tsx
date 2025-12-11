@@ -7,9 +7,9 @@ const Projects = () => {
   const projects = [
     {
       name: "E-commerce Platform",
-      description: "Plataforma completa de e-commerce com painel administrativo, sistema de pagamentos e gestão de estoque. Desenvolvida com arquitetura moderna e escalável.",
+      description: "Complete e-commerce platform with admin panel, payment system, and inventory management. Developed with modern and scalable architecture.",
       technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "AWS"],
-      github: "https://github.com/usuario/ecommerce-platform",
+      github: "https://github.com/user/ecommerce-platform",
       demo: "https://demo-ecommerce.com",
       stars: 128,
       forks: 34,
@@ -17,27 +17,27 @@ const Projects = () => {
     },
     {
       name: "Task Management App",
-      description: "Aplicação de gerenciamento de tarefas com colaboração em tempo real, notificações push e integração com calendários externos.",
+      description: "Task management application with real-time collaboration, push notifications, and external calendar integration.",
       technologies: ["React", "Firebase", "Material-UI", "PWA"],
-      github: "https://github.com/usuario/task-manager",
+      github: "https://github.com/user/task-manager",
       demo: "https://task-app-demo.com",
       stars: 85,
       forks: 22
     },
     {
       name: "Weather Dashboard",
-      description: "Dashboard meteorológico com previsões detalhadas, mapas interativos e alertas personalizados. Interface responsiva e moderna.",
+      description: "Weather dashboard with detailed forecasts, interactive maps, and personalized alerts. Responsive and modern interface.",
       technologies: ["Vue.js", "TypeScript", "Chart.js", "OpenWeather API"],
-      github: "https://github.com/usuario/weather-dashboard",
+      github: "https://github.com/user/weather-dashboard",
       demo: "https://weather-demo.com",
       stars: 67,
       forks: 18
     },
     {
       name: "Blog CMS",
-      description: "Sistema de gerenciamento de conteúdo para blogs com editor rich text, sistema de comentários e otimização SEO.",
+      description: "Content management system for blogs with rich text editor, comment system, and SEO optimization.",
       technologies: ["Next.js", "Markdown", "Tailwind CSS", "Vercel"],
-      github: "https://github.com/usuario/blog-cms",
+      github: "https://github.com/user/blog-cms",
       demo: "https://blog-cms-demo.com",
       stars: 45,
       forks: 12
@@ -49,11 +49,11 @@ const Projects = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Projetos no GitHub
+            GitHub Projects
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Uma seleção dos meus projetos mais relevantes, demonstrando diferentes tecnologias 
-            e abordagens de desenvolvimento.
+            A selection of my most relevant projects, demonstrating different technologies 
+            and development approaches.
           </p>
         </div>
 
@@ -72,7 +72,7 @@ const Projects = () => {
                   </h3>
                   {project.featured && (
                     <Badge className="bg-primary text-primary-foreground">
-                      Destaque
+                      Featured
                     </Badge>
                   )}
                 </div>
@@ -114,7 +114,7 @@ const Projects = () => {
                     >
                       <a href={project.github} target="_blank" rel="noopener noreferrer">
                         <Github className="w-4 h-4 mr-2" />
-                        Código
+                        Code
                       </a>
                     </Button>
                     <Button 
@@ -144,7 +144,7 @@ const Projects = () => {
           >
             <a href="https://github.com" target="_blank" rel="noopener noreferrer">
               <Github className="w-5 h-5 mr-2" />
-              Ver todos os projetos no GitHub
+              View all projects on GitHub
             </a>
           </Button>
         </div>

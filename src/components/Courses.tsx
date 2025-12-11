@@ -7,60 +7,60 @@ const Courses = () => {
     {
       title: "Advanced React Patterns",
       provider: "Frontend Masters",
-      duration: "40 horas",
+      duration: "40 hours",
       year: "2023",
-      status: "Concluído",
-      description: "Padrões avançados de React incluindo render props, compound components, higher-order components e hooks customizados.",
+      status: "Completed",
+      description: "Advanced React patterns including render props, compound components, higher-order components, and custom hooks.",
       skills: ["React", "TypeScript", "Performance", "Design Patterns"],
       category: "Frontend"
     },
     {
       title: "Node.js: The Complete Guide",
       provider: "Udemy",
-      duration: "60 horas",
+      duration: "60 hours",
       year: "2023",
-      status: "Concluído",
-      description: "Curso completo de Node.js cobrindo Express, MongoDB, autenticação, APIs RESTful e GraphQL.",
+      status: "Completed",
+      description: "Complete Node.js course covering Express, MongoDB, authentication, RESTful APIs, and GraphQL.",
       skills: ["Node.js", "Express", "MongoDB", "GraphQL", "JWT"],
       category: "Backend"
     },
     {
       title: "AWS Solutions Architect",
       provider: "AWS Training",
-      duration: "80 horas",
+      duration: "80 hours",
       year: "2022",
-      status: "Certificado",
-      description: "Arquitetura de soluções na AWS, incluindo EC2, S3, RDS, Lambda e serviços de networking.",
+      status: "Certified",
+      description: "AWS solutions architecture, including EC2, S3, RDS, Lambda, and networking services.",
       skills: ["AWS", "Cloud Computing", "Architecture", "DevOps"],
       category: "Cloud"
     },
     {
       title: "Machine Learning Fundamentals",
       provider: "Coursera - Stanford",
-      duration: "50 horas",
+      duration: "50 hours",
       year: "2022",
-      status: "Concluído",
-      description: "Fundamentos de machine learning, algoritmos de classificação, regressão e redes neurais.",
+      status: "Completed",
+      description: "Machine learning fundamentals, classification algorithms, regression, and neural networks.",
       skills: ["Python", "Machine Learning", "TensorFlow", "Data Science"],
       category: "AI/ML"
     },
     {
       title: "Docker & Kubernetes",
       provider: "Linux Academy",
-      duration: "35 horas",
+      duration: "35 hours",
       year: "2021",
-      status: "Certificado",
-      description: "Containerização com Docker e orquestração com Kubernetes para aplicações em produção.",
+      status: "Certified",
+      description: "Containerization with Docker and orchestration with Kubernetes for production applications.",
       skills: ["Docker", "Kubernetes", "DevOps", "Microservices"],
       category: "DevOps"
     },
     {
       title: "PostgreSQL Advanced",
       provider: "Pluralsight",
-      duration: "25 horas",
+      duration: "25 hours",
       year: "2021",
-      status: "Concluído",
-      description: "Administração avançada de PostgreSQL, otimização de queries e modelagem de dados.",
+      status: "Completed",
+      description: "Advanced PostgreSQL administration, query optimization, and data modeling.",
       skills: ["PostgreSQL", "Database", "Performance", "SQL"],
       category: "Database"
     }
@@ -68,18 +68,18 @@ const Courses = () => {
 
   const getCategoryColor = (category: string) => {
     const colors: { [key: string]: string } = {
-      "Frontend": "bg-blue-100 text-blue-800",
-      "Backend": "bg-green-100 text-green-800",
-      "Cloud": "bg-purple-100 text-purple-800",
-      "AI/ML": "bg-orange-100 text-orange-800",
-      "DevOps": "bg-red-100 text-red-800",
-      "Database": "bg-indigo-100 text-indigo-800"
+      "Frontend": "bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300",
+      "Backend": "bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300",
+      "Cloud": "bg-purple-100 text-purple-800 dark:bg-purple-900/30 dark:text-purple-300",
+      "AI/ML": "bg-orange-100 text-orange-800 dark:bg-orange-900/30 dark:text-orange-300",
+      "DevOps": "bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300",
+      "Database": "bg-indigo-100 text-indigo-800 dark:bg-indigo-900/30 dark:text-indigo-300"
     };
-    return colors[category] || "bg-gray-100 text-gray-800";
+    return colors[category] || "bg-gray-100 text-gray-800 dark:bg-gray-900/30 dark:text-gray-300";
   };
 
   const getStatusColor = (status: string) => {
-    return status === "Certificado" 
+    return status === "Certified" 
       ? "bg-accent/20 text-accent border-accent/20" 
       : "bg-primary/20 text-primary border-primary/20";
   };
@@ -89,11 +89,11 @@ const Courses = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Cursos e Especializações
+            Courses & Specializations
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Investimento contínuo em conhecimento através de cursos especializados e certificações 
-            para manter-me atualizado com as tecnologias mais recentes do mercado.
+            Continuous investment in knowledge through specialized courses and certifications 
+            to stay updated with the latest market technologies.
           </p>
         </div>
 
@@ -115,7 +115,7 @@ const Courses = () => {
                     variant="outline"
                     className={getStatusColor(course.status)}
                   >
-                    {course.status === "Certificado" && <Award className="w-3 h-3 mr-1" />}
+                    {course.status === "Certified" && <Award className="w-3 h-3 mr-1" />}
                     {course.status}
                   </Badge>
                 </div>
@@ -163,12 +163,12 @@ const Courses = () => {
         <div className="text-center mt-12">
           <div className="bg-gradient-card rounded-lg p-8 max-w-2xl mx-auto shadow-elegant">
             <h3 className="text-2xl font-semibold text-foreground mb-4">
-              Aprendizado Contínuo
+              Continuous Learning
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Acredito que o aprendizado é um processo contínuo. Estou sempre em busca de novos 
-              conhecimentos e oportunidades para me desenvolver profissionalmente. Atualmente, 
-              estou estudando sobre arquiteturas serverless e desenvolvimento mobile com React Native.
+              I believe that learning is a continuous process. I am always seeking new 
+              knowledge and opportunities to develop professionally. Currently, 
+              I am studying serverless architectures and mobile development with React Native.
             </p>
           </div>
         </div>
