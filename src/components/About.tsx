@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Code, Coffee, Users, Zap } from "lucide-react";
+import profilePicture from "@/assets/profile.jpeg";
 
 const About = () => {
   const skills = [
@@ -68,6 +69,7 @@ const About = () => {
                 <div className="flex justify-center lg:col-span-1">
                   <div className="relative">
                     <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-primary/30 shadow-elegant">
+                      <img src={profilePicture} alt="Profile" />
                       {/* REPLACE THIS IMAGE WITH YOUR PHOTO */}
                       {/* Option 1: Place your photo in src/assets/profile-photo.jpg and import */}
                       {/* Option 2: Use a direct URL */}
@@ -98,12 +100,12 @@ const About = () => {
                   
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                     <div className="bg-primary/10 p-4 rounded-lg">
-                      <h4 className="font-semibold text-primary mb-2">Frontend</h4>
-                      <p className="text-sm text-muted-foreground">React, TypeScript, Tailwind CSS, Next.js</p>
+                      <h4 className="font-semibold text-primary mb-2">Backend</h4>
+                      <p className="text-sm text-muted-foreground">.NET (C# & VB.NET), C, Python, PostgreSQL, MongoDB</p>
                     </div>
                     <div className="bg-accent/10 p-4 rounded-lg">
-                      <h4 className="font-semibold text-accent mb-2">Backend</h4>
-                      <p className="text-sm text-muted-foreground">Node.js, Express, PostgreSQL, MongoDB</p>
+                      <h4 className="font-semibold text-accent mb-2">Frontend</h4>
+                      <p className="text-sm text-muted-foreground">HTML, CSS, JavaScript, React, TypeScript, Tailwind CSS</p>
                     </div>
                     <div className="bg-secondary/20 p-4 rounded-lg">
                       <h4 className="font-semibold text-foreground mb-2">DevOps</h4>
