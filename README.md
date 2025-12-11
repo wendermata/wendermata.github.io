@@ -40,13 +40,14 @@ http://localhost:8080
 
 This portfolio was created as a professional online presentation, allowing you to showcase:
 
-* Personal and professional projects
-* Career experience and background
-* Technologies and skills
+* My Personal and professional projects
+* My Career experience and background
+* Technologies and hard-skills
 * Contact information and social links
 
 Feel free to customize any part of the code as needed.
 
 ---
-
-If you need to add new sections, improve the layout, or implement new features, simply edit the React components inside the `src/` folder.
+```
+https://wendermata.github.io/
+```
