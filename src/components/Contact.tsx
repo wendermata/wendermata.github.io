@@ -142,28 +142,23 @@ const Contact = () => {
                 </p>
                 
                 <div className="space-y-4">
-                  <Button 
-                    size="lg"
-                    className="w-full bg-white text-primary hover:bg-white/90 transition-all duration-300"
-                    asChild
+                  <a 
+                    href="mailto:contato@seudominio.com"
+                    className="flex items-center justify-center gap-2 w-full px-6 py-3 bg-white text-primary font-medium rounded-lg hover:bg-white/80 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 shadow-lg"
                   >
-                    <a href="mailto:contato@seudominio.com">
-                      <Mail className="w-5 h-5 mr-2" />
-                      Enviar um Email
-                    </a>
-                  </Button>
+                    <Mail className="w-5 h-5" />
+                    Enviar um Email
+                  </a>
                   
-                  <Button 
-                    variant="outline"
-                    size="lg"
-                    className="w-full border-white/30 text-white hover:bg-white/10 backdrop-blur-sm transition-all duration-300"
-                    asChild
+                  <a 
+                    href="https://wa.me/5511999999999" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-2 w-full px-6 py-3 bg-green-500 text-white font-medium rounded-lg hover:bg-green-600 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 shadow-lg"
                   >
-                    <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
-                      <MessageCircle className="w-5 h-5 mr-2" />
-                      WhatsApp
-                    </a>
-                  </Button>
+                    <MessageCircle className="w-5 h-5" />
+                    WhatsApp
+                  </a>
                 </div>
                 
                 <div className="mt-8 p-4 bg-white/5 rounded-lg border border-white/10">
