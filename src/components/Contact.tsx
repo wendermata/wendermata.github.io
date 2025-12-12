@@ -10,12 +10,6 @@ const Contact = () => {
       link: "mailto:wender.mata@live.com"
     },
     {
-      icon: <Phone className="w-6 h-6" />,
-      label: "Phone",
-      value: "+55 (11) 99199-4171",
-      link: "tel:+5511991994171"
-    },
-    {
       icon: <MapPin className="w-6 h-6" />,
       label: "Location",
       value: "São Paulo, SP - Brazil",
@@ -34,17 +28,10 @@ const Contact = () => {
     {
       icon: <Linkedin className="w-6 h-6" />,
       label: "LinkedIn",
-      value: "/in/wendermata",
-      link: "https://linkedin.com/in/wendermata",
+      value: "/in/wender-mata",
+      link: "https://linkedin.com/in/wender-mata",
       color: "hover:text-blue-600"
     },
-    {
-      icon: <MessageCircle className="w-6 h-6" />,
-      label: "WhatsApp",
-      value: "Send message",
-      link: "https://wa.me/5511991994171",
-      color: "hover:text-green-600"
-    }
   ];
 
   return (
@@ -142,21 +129,11 @@ const Contact = () => {
                 
                 <div className="space-y-4">
                   <a 
-                    href="mailto:contact@yourdomain.com"
+                    href="mailto:wender.mata@live.com"
                     className="flex items-center justify-center gap-2 w-full px-6 py-3 bg-white text-primary font-medium rounded-lg hover:bg-white/80 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 shadow-lg"
                   >
                     <Mail className="w-5 h-5" />
                     Send an Email
-                  </a>
-                  
-                  <a 
-                    href="https://wa.me/15551234567" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2 w-full px-6 py-3 bg-green-500 text-white font-medium rounded-lg hover:bg-green-600 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 shadow-lg"
-                  >
-                    <MessageCircle className="w-5 h-5" />
-                    WhatsApp
                   </a>
                 </div>
                 
