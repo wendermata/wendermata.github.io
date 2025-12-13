@@ -88,12 +88,12 @@ const About = () => {
                     My Journey
                   </h3>
                   <p className="text-muted-foreground mb-4 leading-relaxed">
-                    I started my career in development over 5 years ago, always focused 
+                    I started my career in development over 7 years ago, always focused 
                     on modern web technologies. During this period, I had the opportunity to 
                     work on challenging projects with multidisciplinary teams.
                   </p>
                   <p className="text-muted-foreground mb-6 leading-relaxed">
-                    Currently, I work as a full stack developer, contributing to the 
+                    Currently, I work as a software engineer, contributing to the 
                     growth of companies through innovative technological solutions and 
                     efficient development processes.
                   </p>

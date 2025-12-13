@@ -142,7 +142,7 @@ const Projects = () => {
             className="border-primary/20 text-primary hover:bg-primary/10"
             asChild
           >
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/wendermata" target="_blank" rel="noopener noreferrer">
               <Github className="w-5 h-5 mr-2" />
               View all projects on GitHub
             </a>
