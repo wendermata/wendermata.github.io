@@ -5,18 +5,18 @@ import { GraduationCap, Calendar, Award } from "lucide-react";
 const Education = () => {
   const education = [
     {
-      degree: "Bachelor's Degree in Computer Science",
-      institution: "University of California",
-      period: "2015 - 2019",
-      description: "Solid foundation in algorithms, data structures, software engineering, and systems development. Participated in AI research projects.",
-      highlights: ["Final Project: Recommendation System using Machine Learning", "Teaching Assistant for Object-Oriented Programming"]
-    },
-    {
-      degree: "Technical Degree in Information Technology",
-      institution: "Technical High School",
-      period: "2013 - 2015",
+      degree: "MBA in Architecture and Development on the .NET Platform",
+      institution: "Faculdade de Informática e Administração Paulista (FIAP)",
+      period: "2019 - 2020",
       description: "Technical foundation in programming, computer networks, and web development. First contact with programming languages and fundamental concepts.",
       highlights: ["Best capstone project of the class", "Developed web system for school management"]
+    },
+    {
+      degree: "Bachelor's Degree in Computer Engineering",
+      institution: "Universidade Paulista (UNIP)",
+      period: "2013 - 2018",
+      description: "Solid foundation in algorithms, data structures, software engineering, and systems development. Participated in AI research projects.",
+      highlights: ["Final Project: Recommendation System using Machine Learning", "Teaching Assistant for Object-Oriented Programming"]
     }
   ];
 

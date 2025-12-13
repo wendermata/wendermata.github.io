@@ -7,12 +7,12 @@ const About = () => {
     {
       icon: <Code className="w-8 h-8 text-primary" />,
       title: "Development",
-      description: "Specialist in modern technologies like React, Node.js, TypeScript, and cloud computing"
+      description: "Specialist in modern technologies like .NET(C#), SQL & NoSQL databases, and cloud computing"
     },
     {
       icon: <Zap className="w-8 h-8 text-primary" />,
       title: "Performance",
-      description: "Focused on creating fast, scalable applications with excellent user experience"
+      description: "Focused on creating fast, scalable applications applying best practices and optimization techniques"
     },
     {
       icon: <Users className="w-8 h-8 text-primary" />,
@@ -34,7 +34,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            I am a developer passionate about creating technological solutions that make a difference. 
+            I am a software engineer passionate about creating technological solutions that make a difference. 
             With years of experience in the market, I have dedicated myself to delivering high-quality projects 
             and staying updated with the latest development trends.
           </p>

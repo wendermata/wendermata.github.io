@@ -5,28 +5,28 @@ import { Building, Calendar, MapPin } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      company: "Tech Solutions Inc.",
-      position: "Senior Full Stack Developer",
-      period: "2022 - Present",
-      location: "San Francisco, CA",
-      description: "Leading the development of scalable web applications using React, Node.js, and AWS. Implemented microservices architectures that reduced API response time by 40%.",
-      technologies: ["React", "Node.js", "TypeScript", "AWS", "PostgreSQL", "Docker"]
+      company: "Mottu Company",
+      position: "Sr. Software Engineer",
+      period: "2024 - Present",
+      location: "São Paulo, SP - Brazil",
+      description: "Working on backend development for the Warehouse Inventory team, focusing on optimizing stock control, system integrations, and data flow reliability. Collaborating to solve divergences in stock management and enhance overall system performance.",
+      technologies: [".NET", "C#", "AWS", "PostgreSQL", "MongoDB", "Docker", "RabbitMQ", "Pub/Sub"]
     },
     {
-      company: "Innovative Startup",
-      position: "Frontend Developer",
-      period: "2020 - 2022",
+      company: "XP Inc.",
+      position: "Software Engineer",
+      period: "2023 - 2024",
       location: "Remote",
-      description: "Built a SaaS platform from scratch serving over 10,000 users. Created reusable components and implemented automated testing.",
-      technologies: ["React", "JavaScript", "Sass", "Jest", "Cypress", "Firebase"]
+      description: "Developing new solutions using best practices such as Clean Architecture and SOLID principles. Working on microservices-based development, utilizing Redis for caching and Kafka for messaging. Experience with MongoDB and configuring and adjusting CI/CD pipelines using Terraform.",
+      technologies: ["NET", "MongoDB", "Kafka", "C#", "Azure DevOps", "Redis", "Terraform"]
     },
     {
-      company: "Creative Digital Agency",
-      position: "Web Developer",
-      period: "2019 - 2020",
-      location: "New York, NY",
-      description: "Created responsive and optimized websites for various clients. Focused on performance and SEO, achieving 95+ scores on PageSpeed Insights.",
-      technologies: ["HTML", "CSS", "JavaScript", "WordPress", "PHP", "MySQL"]
+      company: "Itaú Unibanco",
+      position: "Jr. Software Engineer",
+      period: "2021 - 2023",
+      location: "São Paulo, SP - Brazil",
+      description: "Maintaining legacy projects using .NET Full Framework. Expertise in managing ORACLE and MSSQL databases. Responsible for adjusting and optimizing batch routines. Working with Cloud technologies (AWS), including the creation and maintenance of Lambdas, EC2, and RDS. Skilled in ensuring service continuity and operational efficiency of systems.",
+      technologies: [".NET", "C#", "VB.NET", "WCF", "Oracle DB", "MSSQL", "AWS", "Python"]
     }
   ];
 
