@@ -5,18 +5,18 @@ import { GraduationCap, Calendar, Award } from "lucide-react";
 const Education = () => {
   const education = [
     {
-      degree: "MBA in Architecture and Development on the .NET Platform",
+      degree: "MBA in .NET Architecture and Development",
       institution: "Faculdade de Informática e Administração Paulista (FIAP)",
       period: "2019 - 2020",
-      description: "Technical foundation in programming, computer networks, and web development. First contact with programming languages and fundamental concepts.",
-      highlights: ["Best capstone project of the class", "Developed web system for school management"]
+      description: "Postgraduate program focused on software architecture and enterprise-grade .NET development, covering clean architecture, design patterns, SOLID principles, distributed systems, and best practices for scalable and maintainable applications.",
+      highlights: ["Applied enterprise architecture frameworks and methodologies (e.g., TOGAF) to model and structure the solution end-to-end", "Produced robust architectural documentation covering system design, component interactions, data flow, and non-functional requirements", "Applied design patterns and SOLID principles to real-world scenarios"]
     },
     {
       degree: "Bachelor's Degree in Computer Engineering",
       institution: "Universidade Paulista (UNIP)",
       period: "2013 - 2018",
-      description: "Solid foundation in algorithms, data structures, software engineering, and systems development. Participated in AI research projects.",
-      highlights: ["Final Project: Recommendation System using Machine Learning", "Teaching Assistant for Object-Oriented Programming"]
+      description: "Undergraduate program with a strong focus on hardware, electronics, and embedded systems, combined with core foundations in algorithms, data structures, software engineering, and computer systems, providing a broad engineering background bridging hardware and software.",
+      highlights: ["Extensive coursework in digital electronics, microcontrollers, embedded systems, and computer architecture","Final Project: IoT energy consumption monitoring device using Arduino, enabling real-time data visualization through a mobile application"]
     }
   ];
 
