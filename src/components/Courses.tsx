@@ -5,24 +5,24 @@ import { BookOpen, Clock, Award, Calendar } from "lucide-react";
 const Courses = () => {
   const courses = [
     {
-      title: "Advanced React Patterns",
-      provider: "Frontend Masters",
-      duration: "40 hours",
-      year: "2023",
+      title: "SOLID",
+      provider: "FullCycle",
+      duration: "5 hours",
+      year: "2025",
       status: "Completed",
-      description: "Advanced React patterns including render props, compound components, higher-order components, and custom hooks.",
-      skills: ["React", "TypeScript", "Performance", "Design Patterns"],
-      category: "Frontend"
+      description: "Understanding SOLID principles applied in backend development.",
+      skills: ["SOLID", "Software Engineering", "Software Architecture", "Best Practices", "OOP"],
+      category: "Software Architecture & Best Practices"
     },
     {
-      title: "Node.js: The Complete Guide",
-      provider: "Udemy",
-      duration: "60 hours",
-      year: "2023",
+      title: "Design Patterns",
+      provider: "fundamento.dev",
+      duration: "25 hours",
+      year: "2025",
       status: "Completed",
-      description: "Complete Node.js course covering Express, MongoDB, authentication, RESTful APIs, and GraphQL.",
-      skills: ["Node.js", "Express", "MongoDB", "GraphQL", "JWT"],
-      category: "Backend"
+      description: "Learned the most common design patterns and their applications in software development using as base the famous Gang of Four book.",
+      skills: ["Design Patterns", "Software Architecture", "Software Engineering", "OOP", "Best Practices"],
+      category: "Software Architecture & Best Practices"
     },
     {
       title: "AWS Solutions Architect",
