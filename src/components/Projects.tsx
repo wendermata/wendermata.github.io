@@ -6,41 +6,29 @@ import { Github, ExternalLink, Star, GitFork } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      name: "E-commerce Platform",
-      description: "Complete e-commerce platform with admin panel, payment system, and inventory management. Developed with modern and scalable architecture.",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "AWS"],
-      github: "https://github.com/user/ecommerce-platform",
-      demo: "https://demo-ecommerce.com",
-      stars: 128,
-      forks: 34,
+      name: "Warehouse Stock",
+      description: "A minimal API implementing the ledger pattern for ACID transactions using the warehouse context",
+      technologies: ["C#", "PostgreSQL", "RabbitMQ", "Minimal API"],
+      github: "https://github.com/wendermata/warehouse-stock",
       featured: true
     },
     {
-      name: "Task Management App",
-      description: "Task management application with real-time collaboration, push notifications, and external calendar integration.",
-      technologies: ["React", "Firebase", "Material-UI", "PWA"],
-      github: "https://github.com/user/task-manager",
-      demo: "https://task-app-demo.com",
-      stars: 85,
-      forks: 22
+      name: "Code challenge",
+      description: "Code challenge proposed to rental motorcycles",
+      technologies: ["C#", "MongoDB", "Kafka", "Clean Arch"],
+      github: "https://github.com/wendermata/Challenge",
     },
     {
-      name: "Weather Dashboard",
-      description: "Weather dashboard with detailed forecasts, interactive maps, and personalized alerts. Responsive and modern interface.",
-      technologies: ["Vue.js", "TypeScript", "Chart.js", "OpenWeather API"],
-      github: "https://github.com/user/weather-dashboard",
-      demo: "https://weather-demo.com",
-      stars: 67,
-      forks: 18
+      name: "Design Patterns",
+      description: "A simple project to apply most common design patterns with C#",
+      technologies: ["C#", "Design Patterns"],
+      github: "https://github.com/wendermata/DesignPatterns",
     },
     {
-      name: "Blog CMS",
-      description: "Content management system for blogs with rich text editor, comment system, and SEO optimization.",
-      technologies: ["Next.js", "Markdown", "Tailwind CSS", "Vercel"],
-      github: "https://github.com/user/blog-cms",
-      demo: "https://blog-cms-demo.com",
-      stars: 45,
-      forks: 12
+      name: "BMI Calculator",
+      description: "A single page front-end project to calculate BMI (Body Mass Index) for an individual.",
+      technologies: ["HTML", "CSS", "Tailwind CSS", "Javascript"],
+      github: "https://github.com/wendermata/CalculadoraIMC",
     }
   ];
 
@@ -94,7 +82,7 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-4 text-sm text-muted-foreground">
+                  {/* <div className="flex items-center gap-4 text-sm text-muted-foreground">
                     <div className="flex items-center gap-1">
                       <Star className="w-4 h-4" />
                       <span>{project.stars}</span>
@@ -103,7 +91,7 @@ const Projects = () => {
                       <GitFork className="w-4 h-4" />
                       <span>{project.forks}</span>
                     </div>
-                  </div>
+                  </div> */}
                   
                   <div className="flex gap-2">
                     <Button 
@@ -123,10 +111,10 @@ const Projects = () => {
                       className="bg-primary text-primary-foreground hover:bg-primary/90"
                       asChild
                     >
-                      <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                      {/* <a href={project.demo} target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="w-4 h-4 mr-2" />
                         Demo
-                      </a>
+                      </a> */}
                     </Button>
                   </div>
                 </div>
