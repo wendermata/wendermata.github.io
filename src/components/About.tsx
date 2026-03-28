@@ -96,7 +96,7 @@ const About = () => {
                     efficient development processes.
                   </p>
                   
-                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className="bg-primary/10 p-4 rounded-lg">
                       <h4 className="font-semibold text-primary mb-2">Backend</h4>
                       <p className="text-sm text-muted-foreground">.NET (C# & VB.NET), C, Python</p>
@@ -105,8 +105,12 @@ const About = () => {
                       <h4 className="font-semibold text-accent mb-2">Database</h4>
                       <p className="text-sm text-muted-foreground"> PostgreSQL, MongoDB, MS SQL</p>
                     </div>
-                    <div className="bg-secondary/20 p-4 rounded-lg">
-                      <h4 className="font-semibold text-foreground mb-2">DevOps</h4>
+                    <div className="bg-violet-500/10 p-4 rounded-lg">
+                      <h4 className="font-semibold text-violet-500 mb-2">DevOps</h4>
+                      <p className="text-sm text-muted-foreground">Docker, AWS, Azure, CI/CD, Git, GitHub Actions, Terraforms</p>
+                    </div>
+                    <div className="bg-teal-500/10 p-4 rounded-lg">
+                      <h4 className="font-semibold text-teal-500 mb-2">Platform Engineering</h4>
                       <p className="text-sm text-muted-foreground">Docker, AWS, Azure, CI/CD, Git, GitHub Actions, Terraforms</p>
                     </div>
                   </div>
