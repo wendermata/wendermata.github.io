@@ -111,7 +111,7 @@ const About = () => {
                     </div>
                     <div className="bg-teal-500/10 p-4 rounded-lg">
                       <h4 className="font-semibold text-teal-500 mb-2">Platform Engineering</h4>
-                      <p className="text-sm text-muted-foreground">Docker, AWS, Azure, CI/CD, Git, GitHub Actions, Terraforms</p>
+                      <p className="text-sm text-muted-foreground">RabbitMQ, Kafka, Redis, Grafana, Datadog</p>
                     </div>
                   </div>
                 </div>
