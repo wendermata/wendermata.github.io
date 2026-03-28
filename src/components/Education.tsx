@@ -87,7 +87,7 @@ const Education = () => {
           </div>
 
           {/* Certifications */}
-          <Card className="bg-gradient-card border-0 shadow-elegant">
+          {/* <Card className="bg-gradient-card border-0 shadow-elegant">
             <CardContent className="p-8">
               <h3 className="text-2xl font-semibold text-foreground mb-6 flex items-center gap-2">
                 <Award className="w-6 h-6 text-primary" />
@@ -107,7 +107,7 @@ const Education = () => {
                 ))}
               </div>
             </CardContent>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </section>

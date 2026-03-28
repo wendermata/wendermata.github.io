@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Code, Coffee, Users, Zap } from "lucide-react";
-import profilePicture from "@/assets/profile.jpeg";
+import profilePicture from "@/assets/profile.png";
 
 const About = () => {
   const skills = [
@@ -70,9 +70,7 @@ const About = () => {
                   <div className="relative">
                     <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-primary/30 shadow-elegant">
                       <img src={profilePicture} alt="Profile" />
-                      {/* REPLACE THIS IMAGE WITH YOUR PHOTO */}
-                      {/* Option 1: Place your photo in src/assets/profile-photo.jpg and import */}
-                      {/* Option 2: Use a direct URL */}
+
                       <div className="w-full h-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
                         <span className="text-6xl text-primary/50">👤</span>
                       </div>
@@ -101,15 +99,15 @@ const About = () => {
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                     <div className="bg-primary/10 p-4 rounded-lg">
                       <h4 className="font-semibold text-primary mb-2">Backend</h4>
-                      <p className="text-sm text-muted-foreground">.NET (C# & VB.NET), C, Python, PostgreSQL, MongoDB</p>
+                      <p className="text-sm text-muted-foreground">.NET (C# & VB.NET), C, Python</p>
                     </div>
                     <div className="bg-accent/10 p-4 rounded-lg">
-                      <h4 className="font-semibold text-accent mb-2">Frontend</h4>
-                      <p className="text-sm text-muted-foreground">HTML, CSS, JavaScript, React, TypeScript, Tailwind CSS</p>
+                      <h4 className="font-semibold text-accent mb-2">Database</h4>
+                      <p className="text-sm text-muted-foreground"> PostgreSQL, MongoDB, MS SQL</p>
                     </div>
                     <div className="bg-secondary/20 p-4 rounded-lg">
                       <h4 className="font-semibold text-foreground mb-2">DevOps</h4>
-                      <p className="text-sm text-muted-foreground">Docker, AWS, CI/CD, Git</p>
+                      <p className="text-sm text-muted-foreground">Docker, AWS, Azure, CI/CD, Git, GitHub Actions, Terraforms</p>
                     </div>
                   </div>
                 </div>
