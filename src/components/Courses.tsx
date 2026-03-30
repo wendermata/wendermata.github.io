@@ -25,14 +25,14 @@ const Courses = () => {
       category: "Software Architecture & Best Practices"
     },
     {
-      title: "AWS Solutions Architect",
-      provider: "AWS Training",
+      title: "Building Microservices With .NET",
+      provider: "DotNet Academy",
       duration: "80 hours",
-      year: "2022",
+      year: "2026",
       status: "Certified",
-      description: "AWS solutions architecture, including EC2, S3, RDS, Lambda, and networking services.",
-      skills: ["AWS", "Cloud Computing", "Architecture", "DevOps"],
-      category: "Cloud"
+      description: "Deep-learning the implementation of microservices on the .net platform, exploring the trade-offs for this architecture",
+      skills: ["Microservices", ".NET", "Distributed Systems"],
+      category: "Software Architecture "
     },
     {
       title: "Machine Learning Fundamentals",
