@@ -33,37 +33,37 @@ const Courses = () => {
       description: "Deep-learning the implementation of microservices on the .net platform, exploring the trade-offs for this architecture",
       skills: ["Microservices", ".NET", "Distributed Systems"],
       category: "Software Architecture "
-    },
-    {
-      title: "Machine Learning Fundamentals",
-      provider: "Coursera - Stanford",
-      duration: "50 hours",
-      year: "2022",
-      status: "Completed",
-      description: "Machine learning fundamentals, classification algorithms, regression, and neural networks.",
-      skills: ["Python", "Machine Learning", "TensorFlow", "Data Science"],
-      category: "AI/ML"
-    },
-    {
-      title: "Docker & Kubernetes",
-      provider: "Linux Academy",
-      duration: "35 hours",
-      year: "2021",
-      status: "Certified",
-      description: "Containerization with Docker and orchestration with Kubernetes for production applications.",
-      skills: ["Docker", "Kubernetes", "DevOps", "Microservices"],
-      category: "DevOps"
-    },
-    {
-      title: "PostgreSQL Advanced",
-      provider: "Pluralsight",
-      duration: "25 hours",
-      year: "2021",
-      status: "Completed",
-      description: "Advanced PostgreSQL administration, query optimization, and data modeling.",
-      skills: ["PostgreSQL", "Database", "Performance", "SQL"],
-      category: "Database"
     }
+    // {
+    //   title: "Machine Learning Fundamentals",
+    //   provider: "Coursera - Stanford",
+    //   duration: "50 hours",
+    //   year: "2022",
+    //   status: "Completed",
+    //   description: "Machine learning fundamentals, classification algorithms, regression, and neural networks.",
+    //   skills: ["Python", "Machine Learning", "TensorFlow", "Data Science"],
+    //   category: "AI/ML"
+    // },
+    // {
+    //   title: "Docker & Kubernetes",
+    //   provider: "Linux Academy",
+    //   duration: "35 hours",
+    //   year: "2021",
+    //   status: "Certified",
+    //   description: "Containerization with Docker and orchestration with Kubernetes for production applications.",
+    //   skills: ["Docker", "Kubernetes", "DevOps", "Microservices"],
+    //   category: "DevOps"
+    // },
+    // {
+    //   title: "PostgreSQL Advanced",
+    //   provider: "Pluralsight",
+    //   duration: "25 hours",
+    //   year: "2021",
+    //   status: "Completed",
+    //   description: "Advanced PostgreSQL administration, query optimization, and data modeling.",
+    //   skills: ["PostgreSQL", "Database", "Performance", "SQL"],
+    //   category: "Database"
+    // }
   ];
 
   const getCategoryColor = (category: string) => {
